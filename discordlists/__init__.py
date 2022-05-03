@@ -21,20 +21,6 @@
  *   <https://github.com/MattIPv4/discordlists.py/blob/master/LICENSE>
 """
 
-__title__ = 'discordlists.py'
-__author__ = 'MattIPv4'
-__license__ = 'MIT'
-__copyright__ = 'Copyright 2019, MattIPv4'
-__version__ = '1.1.1'
-
-name = "discordlists"
-
-from collections import namedtuple
-
 from .baseclient import BaseClient
 from .client import Client
 from .exceptions import *
-
-VersionInfo = namedtuple('VersionInfo', 'major minor micro releaselevel serial')
-
-version_info = VersionInfo(major=1, minor=1, micro=1, releaselevel='final', serial=0)
